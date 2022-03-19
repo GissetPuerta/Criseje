@@ -26,3 +26,9 @@ elif can_fly is False:
             print("Black Bolt")
         if has_a_mask is False:
             print("Thanos")
+            
+            
+            acep=int(edad==>18<65)+(peso==>50)+(pulso==>50<110)+(plaquetas==>150000)
+
+if edad>18<65 , peso>50 , pulso>50<110 , plaquetas>150000:
+    print("Apto para donar sangre")
