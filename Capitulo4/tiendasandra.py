@@ -34,6 +34,3 @@ else:
         t= compra-d
         print(f""" ha sacado la balota de color amarillo por lo cual le aplica el descuento del (10%),valor de la compra {compra:.3f},
             el valor del descuento {d:.3f}, el valor a pagar {t:.3f}""")
-
-
-
