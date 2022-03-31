@@ -3,7 +3,7 @@ for i in range(1, 10):
     factor = int(one * i)
     result = factor * factor
     print(f'{factor} * {factor} = {result}')
-
+    
 #segundo codigo por si acaso no se puede con int :)
 
 one = '1'
