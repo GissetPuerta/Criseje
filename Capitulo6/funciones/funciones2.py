@@ -1,10 +1,11 @@
 #funcion    
-def lista(objetos):
-    result = list()
+def lista(lista1):
     for i in range(10): 
-        result[i] = i 
-        return result
+        objetos=input('\ndigite el objeto que desea en la lista  : ')
+        lista1.append(objetos)
+    print(f"\n\tLos elementos de la lista son:\n")
+    print(lista1)
 
 #programa principal
-lista=list()
-objetos=int(input('\ndigite el objeto que desea en la lista  : '))
+lista1=list()
+lista(lista1)
