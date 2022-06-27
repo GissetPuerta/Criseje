@@ -1,5 +1,5 @@
 class Cuenta:
-#atributos: numero, fecha apertura, saldo. en constructor.
+    #atributos numero, fecha apertura, saldo. en constructor.
     def __init__(self,numero,fecha_apertura,saldo):
         self.numero = numero
         self.fecha_apertura = fecha_apertura
@@ -10,7 +10,7 @@ class Cuenta:
         print("\n                                                                      ")
         self.retiro=int(input(f'Digite el valor a retirar |su saldo total es de --> {self.saldo}| : '))
         if self.saldo>=self.retiro:
-            return f'Su retiro ha sido ¡Exitoso! -- Saldo Total :{self.saldo-self.retiro}'
+            return f'Su retiro fue ¡Exitoso! -- Saldo Total :{self.saldo-self.retiro}'
         else:
             return 'El valor que desea retirar es insuficiente'
 
@@ -18,7 +18,7 @@ class Cuenta:
     def consignar(self):
         print("\n                                                                          ")
         self.consignar=int(input(f'Digite el valor a consignar |su saldo total es de --> {self.saldo-self.retiro}|: '))
-        return f'Su consigna ha sido ¡Exitosa! -- {self.saldo-self.retiro+self.consignar}'
+        return f'Su consignacion fue ¡Exitosa! -- {self.saldo-self.retiro+self.consignar}'
         
         
 
