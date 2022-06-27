@@ -6,11 +6,11 @@ def registroEstudiante(registro,llave,valor):
         print('[1]Ingresar estudiantes\n[2]Listar estudiante\n[3]Modificar notas\n[4]Consultar nota definitiva\n[S/s]Salir-->\n')
 #se pide por pantalla la opcion.
         opcion=input('Digite una opcion : ')
+        if opcion=='s' or opcion=='S':
+            break
 #opcion para salir del programa.
         if opcion<='0' or opcion>='5':
             print('\n|La opcion es incorrecta, digite una opcion valida|')
-        if opcion=='s' or opcion=='S':
-            break
         if opcion=='1':
             print('\n\t|Registro estudiante|\n')
 #opcion 1 se pide el registro del estudiante, (codigo, nombre, nota1, nota2)

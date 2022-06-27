@@ -65,4 +65,3 @@ aprendiz2.setTelefono(3197161874)
 print(f"\n\t\nDatos del aprendiz 2 modificados: \n")
 print(f"\nEl id del aprendiz 2 es: {aprendiz2.getId()},\nEl nombre del aprendiz 2 es: {aprendiz2.getNombre()},\nLa edad del aprendiz 2 es: {aprendiz2.getEdad()},\nEl correo del aprendiz 2 es: {aprendiz2.getCorreo()},\nEl telefono del aprendiz 2 es: {aprendiz2.getTelefono()}\n ")
 aprendiz1.calcularEdad(16)
-
